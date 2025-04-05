@@ -28,10 +28,10 @@ Clone the repository and run the app with the following steps:
 ### 4. Run the app 
 
 ```bash python app.py ``` 
-Now open your browser and go to [http://localhost:5000](http://localhost:5000) to try it out! --- 
+Now open your browser and go to [http://localhost:5000](http://localhost:5000) to try it out!  
 
 ## 🌍 What It Does 
-Upload a photo of a place — a backyard, a field, a street — and the AI will analyze it and give you **concrete suggestions** to help nature reclaim the space and boost biodiversity. --- 
+Upload a photo of a place — a backyard, a field, a street — and the AI will analyze it and give you **concrete suggestions** to help nature reclaim the space and boost biodiversity.  
 
 ## 💡 Why? 
 Small changes in our environment can have big impacts on local ecosystems. This tool helps make those changes more visible, accessible, and actionable. 
