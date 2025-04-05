@@ -11,23 +11,33 @@ Clone the repository and run the app with the following steps:
 ### 1. Set up a virtual environment 
 **Linux / macOS:** 
 
-```bash python3 -m venv env source env/bin/activate ``` 
+```
+python3 -m venv env source env/bin/activate
+``` 
 
 **Windows (CMD):** 
 
-```cmd python -m venv env env\Scripts\activate ``` 
+```
+python -m venv env env\Scripts\activate
+``` 
 
 ### 2. Install dependencies 
 
-```bash pip install openai flask pillow ``` 
+```
+pip install openai flask pillow
+``` 
 
 ### 3. Clone the repo 
 
-```bash git clone https://github.com/DDE-64-bit/Coding4Climate.git cd Coding4Climate/src ``` 
+```
+git clone https://github.com/DDE-64-bit/Coding4Climate.git cd Coding4Climate/src
+``` 
 
 ### 4. Run the app 
 
-```bash python app.py ``` 
+```
+python app.py
+``` 
 Now open your browser and go to [http://localhost:5000](http://localhost:5000) to try it out!  
 
 ## 🌍 What It Does 
