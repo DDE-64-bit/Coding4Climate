@@ -34,7 +34,7 @@ Now open your browser and go to [http://localhost:5000](http://localhost:5000) t
 Upload a photo of a place — a backyard, a field, a street — and the AI will analyze it and give you **concrete suggestions** to help nature reclaim the space and boost biodiversity. --- 
 
 ## 💡 Why? 
-Small changes in our environment can have big impacts on local ecosystems. This tool helps make those changes more visible, accessible, and actionable. --- 
+Small changes in our environment can have big impacts on local ecosystems. This tool helps make those changes more visible, accessible, and actionable. 
 
 ## 🤖 Powered by
  - GPT-4o via OpenAI or any local model from ollama
