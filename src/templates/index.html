@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nature Recovery Plan Generator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f2f5f7;
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            color: #333;
+        }
+    
+        h1 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: #2f855a;
+        }
+    
+        form.upload {
+            background: #fff;
+            padding: 2em;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2em;
+        }
+    
+        input[type="file"] {
+            display: block;
+            margin-top: 1em;
+        }
+    
+        button {
+            background-color: #38a169;
+            color: white;
+            border: none;
+            padding: 0.8em 1.5em;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 1em;
+            transition: background-color 0.2s ease;
+        }
+    
+        button:hover {
+            background-color: #2f855a;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1em;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+    
+        textarea {
+            width: 100%;
+            height: 250px;
+            margin-top: 1em;
+            border-radius: 12px;
+            border: 1px solid #cbd5e0;
+            padding: 1em;
+            background: #fff;
+            box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.03);
+            resize: vertical;
+            font-size: 1em;
+        }
+    
+        h2 {
+            margin-top: 2em;
+            color: #2d3748;
+        }
+    
+        label {
+            font-weight: bold;
+        }
+        .response-box {
+            background: #ffffff;
+            padding: 1.5em;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            font-size: 1.05em;
+            line-height: 1.6;
+            margin-top: 1em;
+            white-space: pre-line;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <h1>🌿 Nature Recovery Plan Generator</h1>
+    <form method="POST" enctype="multipart/form-data" class="upload">
+        <label>Select a photo of a location you'd like to improve for nature:</label><br>
+        <input type="file" name="image" accept="image/*" required>
+        <br><br>
+        <button type="submit">Generate Plan</button>
+    </form>
+
+    {% if image_url %}
+        <h2>Uploaded Image:</h2>
+        <img src="{{ image_url }}" alt="Uploaded Image">
+    {% endif %}
+
+    {% if response %}
+        <h2>📝 Plan for Nature Restoration:</h2>
+        <div class="response-box">
+            {{ response }}
+        </div>  
+    {% endif %}
+</body>
+</html>
