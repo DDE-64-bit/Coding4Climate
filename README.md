@@ -60,6 +60,7 @@ Now open your browser and go to [http://localhost:5000](http://localhost:5000) t
 
 Alternatively you can also go in the code and switch for the ```natureAgent``` the ```model``` and the ```openAI``` parameter to ```{local model of your choice from ollama}``` and ```False```. Than you can run your AI webapp completly local!
 
+
 ## 🌍 What It Does 
 Upload a photo of a place — a backyard, a field, a street — and the AI will analyze it and give you **concrete suggestions** to help nature reclaim the space and boost biodiversity.  
 
