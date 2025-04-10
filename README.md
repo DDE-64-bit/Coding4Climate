@@ -1,4 +1,4 @@
-# 🌱 Coding4Climate Welcome to **Coding4Climate** 
+# 🌱 Coding4Climate 
  
 I’ve built a web app that allows you to upload a photo of a location and receive direct, AI-generated tips on how to stimulate biodiversity in that specific area. 
 
