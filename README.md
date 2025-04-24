@@ -71,4 +71,4 @@ Small changes in our environment can have big impacts on local ecosystems. This 
  - GPT-4o via OpenAI or any local model from ollama
  - Flask (Python web framework) 
  - Pillow (image handling) 
- - Custom agent logic (full AI agent SDK coming soon!)
+ - [dde-agents](https://github.com/DDE-64-bit/DDE-Agents)
